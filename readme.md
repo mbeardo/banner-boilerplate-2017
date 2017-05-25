@@ -13,7 +13,7 @@ For (Google Doubleclick / Ad words)
 * [Greensock](http://www.greensock.com/) (`CDN`)
 
 ## Installation
-* Clone Repo and cd to `Journey banner boilerplate 2017`
+* Clone Repo and cd to it
 * Run `$ npm install` to install all of the project's dependencies
 * Run `$ bower install` to install all of the required libraries
 * Run `$ grunt` to create production/build versions of js/css
