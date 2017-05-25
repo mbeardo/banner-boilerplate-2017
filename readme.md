@@ -15,7 +15,6 @@ For (Google Doubleclick / Ad words)
 ## Installation
 * Clone Repo and cd to it
 * Run `$ npm install` to install all of the project's dependencies
-* Run `$ bower install` to install all of the required libraries
 * Run `$ grunt` to create production/build versions of js/css
 * Run `$ grunt watch` to compile
 
