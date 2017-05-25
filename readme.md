@@ -33,14 +33,18 @@ For (Google Doubleclick / Ad words)
 
 * Click through's are added in the backend of doublick studio/ad words for tracking purposes.
 
+* Adwords doesn't need an exit built into the ad so this is commented out. If using doubleclick, uncomment/comment what you need to enable the exit (instructions in file).
+
 ## Production
 
-* Before uploading to Ad words or double click you must remove the `main.css.map` from `dist/css` as this will be rejected.
+* Before uploading to Adwords or doubleclick you must remove the `main.css.map` from `dist/css` as this will be rejected.
 
 * Zip up compiled files - `index.html` and  `dist` 
 
 * At this stage you can run the files through a validator:
-[Ad words](https://h5validator.appspot.com/adwords#/asset) 
+
+[Adwords](https://h5validator.appspot.com/adwords#/asset) 
+
 [Doubleclick](https://h5validator.appspot.com/dcm#/asset) 
 
 
