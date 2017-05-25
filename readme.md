@@ -24,7 +24,7 @@
 ## Working with
 * At the top of index.html firstly replace `<meta name="ad.size" content="width=300,height=250">` with the size of your banner.
 
-* Replace the images in `src/img` with the ones you wish to use. By default there are 2 background images and a logo. You can add more but they must also be added to index.html inside `class="container"` and added to the timeline in `main.js` if they are animated.
+* Currently uses unsplash random images. To add/repalce images go to `src/img` and change in `index.html`. You can add more images but they must also be added to index.html inside `class="container"` and added to the timeline in `main.js` if they are animated.
 
 * Set the container size in `main.scss` inside `src/scss` to the size of the banner. Ensure that the border is a contrasting color as this is important for the banner to pass the QA process.
 
