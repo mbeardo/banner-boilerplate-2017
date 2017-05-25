@@ -1,5 +1,5 @@
 # Banner boilerplate 2017
-##For (Google Doubleclick / Ad words)
+For (Google Doubleclick / Ad words)
 
 ![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)
 ![Built with Greensock](https://img.shields.io/badge/Built%20with-Greensock-brightgreen.svg)
