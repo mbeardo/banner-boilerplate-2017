@@ -1,0 +1,111 @@
+$border-color: #000;
+$background-color: #342746;
+$text-color: #fff;
+$cta-background: #b8b3a9;
+$cta-color: #fff;
+$cta-background-hover: #fff;
+$cta-color-hover: #000;
+
+/* 
+======= DEFAULT =======
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.container,
+#clickScreen,
+a {
+    width: 300px;
+    height: 250px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid $border-color;
+}
+
+.container div,
+.container img {
+    position: absolute;
+}
+
+#clickScreen {
+    display: block;
+    cursor: pointer;
+    background: $background-color;
+    opacity: 0;
+    left: 0;    
+    top: 0;
+}
+
+
+
+/* 
+======= CUSTOM =======
+*/
+
+#copy1,
+#copy2,
+#copy3,
+#copy4 {
+    left: 38px;
+    bottom: 15px;
+    visibility: hidden;
+    opacity: 0;
+    font: 18px/20px arial, sans-serif;
+    color: $text-color;
+}
+
+
+#bg1{
+    left: 0;
+    top: 0;
+    width: 338px;
+    height: 300px;
+}
+
+#bg2{
+    left: 0;
+    top: 0;
+    visibility: hidden;
+    opacity: 0;
+    width: 338px;
+    height: 300px;
+}
+
+
+#logo {
+    right: 88px;
+    top: 5px;
+    visibility: hidden;
+    opacity: 0;   
+}
+
+#ctaBtn {
+    position: absolute;
+    right: 92px;
+    top: 157px;
+    font: 11px/14px arial, sans-serif;
+    text-align: center;
+    color: $cta-color;
+    font: 18px/20px arial, sans-serif;
+    background: $cta-background;
+    padding: 5px 6px;
+    transition: color 0.5s, background 0.5s;
+    cursor: pointer;
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;  
+}
+
+#ctaBtn:hover {
+    background: $cta-background-hover;
+    color: $cta-color-hover;
+}
+
